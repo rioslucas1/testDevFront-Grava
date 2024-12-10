@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Cambiar si es necesario para coincidir con la imagen */
+}
+
+.header {
+  background-color: #f5f3f4; /* Color del encabezado */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+
+.header-button {
+  background-color: #1282a2; /* Botón */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+}
+
+.header .nav {
+  display: flex;
+  gap: 1rem; /* Espacio entre los elementos */
+  align-items: center; /* Alinea verticalmente */
+}
+
+.header .nav a {
+  background-color: #001f54; /* Color de fondo */
+  color: white; /* Color de la letra */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Quitar subrayado */
+  transition: background-color 0.3s; /* Transición para el hover */
+}
+
+.header .nav a:hover {
+  background-color: #1282a2; /* Cambia el color al pasar el ratón */
+}
+
+/* Opcional: para centrar los elementos */
+.header .nav {
+  justify-content: center; /* Centra los elementos dentro de la nav */
+}
+
+
+
+/* Hero Section */
+.hero {
+  display: flex;
+  padding: 20px;
+  background-color: #001f54;
+  color: white;
+}
+
+.hero-image {
+  flex: 1;
+  background-color: #1282A2;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.hero-content {
+  flex: 2;
+}
+
+
+
+
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  justify-content: center; 
+}
+
+.card {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  flex: 1; 
+  max-width: 300px; 
+}
+
+.card-content {
+  text-align: center;
+}
+
+.footer {
+  background-color: #002d57; 
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
