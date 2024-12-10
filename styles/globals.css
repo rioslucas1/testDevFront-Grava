@@ -1,55 +1,55 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4; /* Cambiar si es necesario para coincidir con la imagen */
+  background-color: #f4f4f4; 
 }
 
 .header {
-  background-color: #f5f3f4; /* Color del encabezado */
+  background-color: #f5f3f4; 
   color: white;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .header-button {
-  background-color: #1282a2; /* Botón */
+  background-color: #1282a2; 
   color: white;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 5px; /* Bordes redondeados */
+  border-radius: 5px; 
   cursor: pointer;
 }
 
 .header .nav {
   display: flex;
-  gap: 1rem; /* Espacio entre los elementos */
-  align-items: center; /* Alinea verticalmente */
+  gap: 1rem; 
+  align-items: center; 
 }
 
 .header .nav a {
-  background-color: #001f54; /* Color de fondo */
-  color: white; /* Color de la letra */
-  padding: 0.5rem 1rem; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  text-decoration: none; /* Quitar subrayado */
-  transition: background-color 0.3s; /* Transición para el hover */
+  background-color: #001f54; 
+  color: white; 
+  padding: 0.5rem 1rem;  
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: background-color 0.3s; 
 }
 
 .header .nav a:hover {
-  background-color: #1282a2; /* Cambia el color al pasar el ratón */
+  background-color: #1282a2; 
 }
 
-/* Opcional: para centrar los elementos */
+
 .header .nav {
-  justify-content: center; /* Centra los elementos dentro de la nav */
+  justify-content: center; 
 }
 
 
 
-/* Hero Section */
+
 .hero {
   display: flex;
   padding: 20px;

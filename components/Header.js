@@ -1,4 +1,3 @@
-// components/Header.js
 import NavItem from './NavItem';
 
 export default function Header() {
