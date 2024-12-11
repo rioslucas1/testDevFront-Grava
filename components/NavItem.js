@@ -1,8 +1,7 @@
-export default function NavItem({ texto }) {
-    return (
-      <a href="#" className="nav-item">
-        {texto}
-      </a>
-    );
-  }
-  
+export default function NavItem({ texto, extraClass = '' }) {
+  return (
+    <a href="#" className={`nav-item ${extraClass}`}>
+      {texto}
+    </a>
+  );
+}

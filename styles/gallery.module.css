@@ -1,0 +1,56 @@
+.listadoSection {
+  margin: 3rem 0;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.heroBoxBlue {
+  color: #1282a2;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.heroBoxDarkBlue {
+  color: #001f54;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.listadoGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 900px; 
+}
+
+.galleryItem {
+  text-align: center;
+}
+
+.galleryImage {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #001f54; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.galleryImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.galleryText {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #001f54; 
+}

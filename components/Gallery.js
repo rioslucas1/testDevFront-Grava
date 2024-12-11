@@ -1,14 +1,17 @@
- import React from 'react';
+import React from 'react';
+import styles from '../styles/gallery.module.css';
 
-export default function Gallery() {
+const Gallery = ({ imageSrc, altText, description }) => {
   return (
-    <section className="gallery" id="gallery">
-      <h2>Galería</h2>
-      <div className="gallery-container">
-        <div className="gallery-item">Imagen 1</div>
-        <div className="gallery-item">Imagen 2</div>
-        <div className="gallery-item">Imagen 3</div>
+    <div className={styles.galleryItem}>
+      <div className={styles.galleryImage}>
+        <img src={imageSrc} alt={altText} />
       </div>
-    </section>
+      <div className={styles.galleryText}>
+        <p>{description}</p>
+      </div>
+    </div>
   );
-}
+};
+
+export default Gallery;
