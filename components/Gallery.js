@@ -1,17 +1,22 @@
 import React from 'react';
 import styles from '../styles/gallery.module.css';
+import { montserrat } from './fonts';
 
-const Gallery = ({ imageSrc, altText, description }) => {
-  return (
-    <div className={styles.galleryItem}>
-      <div className={styles.galleryImage}>
-        <img src={imageSrc} alt={altText} />
-      </div>
-      <div className={styles.galleryText}>
-        <p>{description}</p>
-      </div>
+const GalleryItem = ({ imageSrc, altText, name, description }) => (
+  <div className={styles.galleryItem}>
+    <div className={styles.galleryImage}>
+      <img src={imageSrc} alt={altText} />
     </div>
-  );
-};
 
-export default Gallery;
+    <p className={`${styles.galleryText} ${montserrat.className} ${styles.nameText}`}>
+      {name}
+    </p>
+    {description.map((line, index) => (
+      <p key={index} className={`${styles.galleryText} ${styles.descriptionText}`}>
+        {line}
+      </p>
+    ))}
+  </div>
+);
+
+export default GalleryItem;

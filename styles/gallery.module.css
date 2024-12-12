@@ -2,21 +2,23 @@
   margin: 3rem 0;
   padding: 0 1rem;
   text-align: center;
+  background-color: #d3d3d3;
 }
 
 .heroBoxBlue {
   color: #1282a2;
-  padding: 1rem;
   margin: 1rem auto;
   max-width: 800px;
   text-align: center;
   width: 100%;
+  padding-top: 5rem;
+  font-size: 50px;
+  font-style: italic;
 }
 
 
 .heroBoxDarkBlue {
   color: #001f54;
-  padding: 1rem;
   margin: 1rem auto;
   max-width: 800px;
   text-align: center;
@@ -27,9 +29,10 @@
 .listadoGallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 2rem;
+  gap: 5rem;
   margin: 2rem auto;
   max-width: 900px; 
+  padding: 4em;
 }
 
 .galleryItem {
@@ -39,18 +42,50 @@
 .galleryImage {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #001f54; 
+  border: 2px solid #000000; 
   border-radius: 5px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #001f54;
 }
 .galleryImage img {
   width: 100%;
   height: auto;
   display: block;
 }
+.filterContainer {
+  margin: 1rem 0;
+  text-align: center;
+}
 
-.galleryText {
-  margin-top: 0.5rem;
+
+.filterLabel {
   font-size: 1rem;
+  color: #001f54;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.filterSelect {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #1282a2;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #001f54;
+  outline: none;
+}
+
+
+
+.nameText {
   color: #001f54; 
+  font-weight: bold; 
+  margin-top: 0.5rem;
+}
+
+.descriptionText {
+  color: #1282a2;
+  font-style: italic; 
+  margin-top: 0.2rem;
+  background-color: #f5f3f4;
 }

@@ -141,7 +141,7 @@ body {
 
 .hero-box-darkblue {
   color: #001f54;
-  width: 100%;
+  width: 50%;
 }
 
 .card h2 {
@@ -151,13 +151,4 @@ body {
 
 .card p {
   color: #f5f3f4;
-}
-
-.footer {
-  background-color: #002d57;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  width: 100%;
-  box-sizing: border-box;
 }
