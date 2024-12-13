@@ -6,10 +6,10 @@ export default function Header() {
       <nav className="nav">
         <NavItem texto="Home" extraClass="home-button" />
         <div className="nav-group">
-          <NavItem texto="Pokemon Types" />
-          <NavItem texto="Pokedex" />
-          <NavItem texto="About us" />
-          <NavItem texto="Contact" />
+          <NavItem texto="Pokemons" customHref='#gallery' />
+          <NavItem texto="Pokemon Types" customHref='#pokemontypes' />
+          <NavItem texto="Gallery" customHref="#gallery"/>
+          <NavItem texto="Contact" customHref="#footer"  />
         </div>
       </nav>
     </header>

@@ -3,7 +3,7 @@ import styles from '../styles/gallery.module.css';
 import { montserrat } from './fonts';
 
 const GalleryItem = ({ imageSrc, altText, name, description }) => (
-  <div className={styles.galleryItem}>
+  <div className={styles.galleryItem} id='gallery'>
     <div className={styles.galleryImage}>
       <img src={imageSrc} alt={altText} />
     </div>

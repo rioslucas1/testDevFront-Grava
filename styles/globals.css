@@ -77,7 +77,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color: #1282a2;
   border-radius: 5px;
   max-width: 700px;
   margin-left: 10%;
@@ -98,6 +97,19 @@ body {
   margin-right: 10px;
   width: 100%;
 }
+
+.hero-box-h1{
+  font-size: 2.0rem;
+}
+
+.hero-box-h2{
+  font-size: 1.5rem;
+}
+
+.hero-box-h3{
+  font-size: 0.8rem;
+}
+
 
 /* Cards css */
 .cards-section {
@@ -137,6 +149,7 @@ body {
 
 .hero-box-blue {
   color: #1282a2;
+  font-size: 2.0rem;
 }
 
 .hero-box-darkblue {
@@ -152,3 +165,79 @@ body {
 .card p {
   color: #f5f3f4;
 }
+
+
+
+
+/* Media query para tablets */
+@media (min-width: 600px) and (max-width: 1023px) {
+  /* Ajustes generales */
+  body {
+    font-size: 16px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-group {
+    margin-left: 0;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .hero-image-container {
+    max-width: 100%;
+  }
+
+  .hero-content {
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+
+  .listadoGallery {
+    grid-template-columns: repeat(2, 1fr); /* Ajusta el número de columnas */
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .filterContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filterLabel {
+    margin-bottom: 0.5rem;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dots {
+    justify-content: center;
+  }
+}
+

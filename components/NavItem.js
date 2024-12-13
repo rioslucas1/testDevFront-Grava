@@ -1,6 +1,8 @@
-export default function NavItem({ texto, extraClass = '' }) {
+export default function NavItem({ texto, extraClass = '', customHref = '' }) {
+
+  customHref = customHref ? customHref : '#';
   return (
-    <a href="#" className={`nav-item ${extraClass}`}>
+    <a href={customHref} className={`nav-item ${extraClass}`}>
       {texto}
     </a>
   );

@@ -11,7 +11,7 @@ const ListadoSection = () => {
   useEffect(() => {
     const fetchPokemonData = async () => {
       try {
-        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=9');
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=6');
         const data = await response.json();
 
         const pokemonDetailsPromises = data.results.map(async (pokemon) => {
